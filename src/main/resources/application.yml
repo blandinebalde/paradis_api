@@ -12,11 +12,13 @@ spring:
 
   datasource:
 
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/paradis_saveurs}
+    #url: ${DB_URL:jdbc:postgresql://localhost:5432/paradis_saveurs}
+    url: ${DB_URL}
+    #username: ${DB_USERNAME:postgres}
+    username: ${DB_USERNAME}
 
-    username: ${DB_USERNAME:postgres}
-
-    password: ${DB_PASSWORD:passer}
+    #password: ${DB_PASSWORD:passer}
+    password: ${DB_PASSWORD}
 
     driver-class-name: org.postgresql.Driver
 
