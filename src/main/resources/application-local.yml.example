@@ -1,0 +1,8 @@
+# Copiez ce fichier en application-local.yml (gitignored) pour Supabase / prod locale.
+# Puis lancez : mvn spring-boot:run -Dspring-boot.run.profiles=local
+#
+# spring:
+#   datasource:
+#     url: jdbc:postgresql://db.VOTRE_REF.supabase.co:5432/postgres?sslmode=require
+#     username: postgres
+#     password: VOTRE_MOT_DE_PASSE
